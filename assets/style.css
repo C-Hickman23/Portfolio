@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Agdasima', sans-serif;
+    background-image: url("https://i.pinimg.com/originals/42/a1/e2/42a1e244d6b8c32e64880d87f36c307d.jpg");
+}
+nav{
+    background-color: #404040;
+    display:flex;
+    justify-content: flex-start;
+}
+nav a{
+    color: darkgreen;
+    font-size: 28px;
+    margin: 8px 10px;
+}
+header{
+    background-color: darkgreen;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    font-size: 36px;
+    justify-content: space-between;
+    color: #404040;
+}
+header *{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+aside{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+aside *{
+    margin: 20px;
+}
+h2 {
+    font-size: 60px;
+    margin: 0;
+    color: darkgreen;
+}
+.barRight{
+    border-right: 5px solid darkgreen;
+}
+.barLeft{
+    border-left: 5px solid darkgreen;
+}
+.space{
+    color: transparent;
+    height: 600px;
+}
+#About-Me{
+    background-color: #404040;
+    margin: 30px;
+    border: 10px solid #404040;
+    display: flex;
+}
+#Projects{
+    background-color: #404040;
+    margin: 30px;
+    border: 10px solid #404040;
+    display: flex;
+    flex-direction:row-reverse;
+}
